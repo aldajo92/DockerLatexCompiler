@@ -14,6 +14,10 @@ RUN apk add --no-cache \
 RUN apk add --no-cache \
     inkscape
 
+# TODO:Install LaTeX packages HERE
+# RUN apk add --no-cache \
+#     <packages>
+
 # Copy the compile script
 COPY compile_latex.py /usr/local/bin/compile_latex.py
 RUN chmod +x /usr/local/bin/compile_latex.py
