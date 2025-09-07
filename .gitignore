@@ -35,3 +35,7 @@ __pycache__/
 
 # ignore the ignore folder
 _ignore/
+
+# only allow the ws_latex/test folder, ignore all other folders
+ws_latex/*
+!ws_latex/test/
