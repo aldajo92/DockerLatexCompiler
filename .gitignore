@@ -1,0 +1,37 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# Mac OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# LaTeX build directories
+_build/
+latex.out/
+*.pdf
+
+# VSCode settings (optional, if using VSCode)
+.vscode/
+
+# Python cache (if any scripts)
+__pycache__/
+
+# ignore the ignore folder
+_ignore/
